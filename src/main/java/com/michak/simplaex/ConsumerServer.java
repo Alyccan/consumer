@@ -2,7 +2,7 @@ package com.michak.simplaex;
 
 import java.io.IOException;
 
-class ConsumerServer {
+public class ConsumerServer {
 
     private final InputProvider inputProvider;
     private final InputProcessorFactory inputProcessorFactory;

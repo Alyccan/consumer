@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.net.ServerSocket;
 
-public class InputProviderImpl implements InputProvider {
+class InputProviderImpl implements InputProvider {
 
     private final ServerSocket serverSocket;
     private BufferedReader reader;
