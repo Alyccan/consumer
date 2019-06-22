@@ -12,5 +12,11 @@ in ConsumerApplication.java. NumberOfFilesToCreate is -1 by default. In means th
 
 
 ## Installation
-Create jar file: ./gradlew build
-Run it: java -jar consumer-1.0-SNAPSHOT.jar --tcp
+Create jar file:
+```bash
+ ./gradlew build
+ ```
+Run it: 
+```bash
+java -jar consumer-1.0-SNAPSHOT.jar --tcp
+ ```
